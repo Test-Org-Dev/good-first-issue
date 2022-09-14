@@ -1,12 +1,13 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
+name = "test-coverage"
 enabled = true
 
 [[analyzers]]
-name = "python"
+name = "secrets"
 enabled = true
 
-  [analyzers.meta]
-  runtime_version = "3.x.x"
+[[analyzers]]
+name = "javascript"
+enabled = true
